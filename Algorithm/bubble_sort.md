@@ -88,5 +88,5 @@ fun bubbleSort(arr: ArrayList<Int>) {
 
 > 참고자료
 <br/>
-[원본링크](https://gyoogle.dev/blog/algorithm/Bubble%20Sort.html, "원본")
-[링크](https://zeddios.tistory.com/20, "참고자료")
+[원본링크](https://gyoogle.dev/blog/algorithm/Bubble%20Sort.html)
+[링크](https://zeddios.tistory.com/20)
