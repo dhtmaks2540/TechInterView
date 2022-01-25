@@ -7,7 +7,7 @@
 <br/>
 
 # Abstract
-Bubble Sort는 Selection Sort와 유사한 알고리즘으로 `__서로 인접한 두 원소의 대소를 비교하고, 조건에 맞지 않다면 자리를 교환하며 정렬하는 알고리즘__` 이다.
+Bubble Sort는 Selection Sort와 유사한 알고리즘으로 __`서로 인접한 두 원소의 대소를 비교하고, 조건에 맞지 않다면 자리를 교환하며 정렬하는 알고리즘`__ 이다.
 
 이름의 유래로는 정렬 과정에서 원소의 이동이 거품이 수면으로 올라오는 듯한 모습을 보이기 때문에 지어졌다고 한다.
 
@@ -88,4 +88,5 @@ fun bubbleSort(arr: ArrayList<Int>) {
 
 > 참고자료
 <br/>
-[링크](https://zeddios.tistory.com/20)
+[원본링크](https://gyoogle.dev/blog/algorithm/Bubble%20Sort.html, "원본")
+[링크](https://zeddios.tistory.com/20, "참고자료")
