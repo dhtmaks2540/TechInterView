@@ -44,5 +44,6 @@ HTTP는 비상태성(Stateless) 프로토콜로 상태 정보를 유지하지 �
 
   <br/>
 
-  **참조**
-  * [원본링크](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Network/Cookie_Session.md)
+**참조**
+* [원본링크](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Network/Cookie_Session.md)
+* [추가참조](https://nesoy.github.io/articles/2017-03/Session-Cookie)
