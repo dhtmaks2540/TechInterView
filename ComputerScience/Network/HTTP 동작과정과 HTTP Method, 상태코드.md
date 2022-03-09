@@ -6,7 +6,7 @@
 
 ## HTTP의 동작
 
-Client가 브라우저를 통해 URI을 통해 특정 요청(Request)을 보내면, Server는 해당 요청(Request)을 받아 처리를 하여 Client에게 응답(Response)을 하는 형태
+Client가 브라우저를 통해 URI에서 특정 요청(Request)을 보내면, Server는 해당 요청(Request)을 받아 처리를 하여 Client에게 응답(Response)을 하는 형태
 
 ![](https://user-images.githubusercontent.com/37958836/119261737-ab57f180-bc13-11eb-85d4-cae4e392c5a3.png)
 
@@ -39,7 +39,7 @@ Client가 브라우저를 통해 URI을 통해 특정 요청(Request)을 보내�
 
 ## HTTP Status Code
 ### 정보전송 임시응답 (1xx)
-* 요청을 받았으며 프로세스를 계속 진행한다.
+* 요청을 받았고, 작업을 진행 중이라는 의미이다.
 
 | Status Code | 설명 |
 |:----------|:----------|
@@ -50,7 +50,7 @@ Client가 브라우저를 통해 URI을 통해 특정 요청(Request)을 보내�
 
 ### 성공 (2xx)
 
-* 서버가 요청을 `성공`적으로 받았음을 알려준다.
+* 서버가 요청을 `성공`적으로 받았고, 이해했으며, 받아들여졌다는 의미이다.
 
 | Status Code | 설명 |
 |:----------|:----------|
@@ -64,7 +64,7 @@ Client가 브라우저를 통해 URI을 통해 특정 요청(Request)을 보내�
 
 ### 리다이렉션 (3xx)
 
-* 캐싱된 파일을 새로고침하여 확인하면 3xx대 코드를 받을 수 있다.
+* 이 요청을 완료하기 위해서는 리다이렉션이 이루어져야 한다는 의미이다. 
 
 | Status Code | 설명 |
 |:----------|:----------|
