@@ -67,3 +67,4 @@ SQL Injection으로 공격할 때, input 창에 비밀번호를 입력함과 동
 **참조**
 * [원본링크1](https://gyoogle.dev/blog/computer-science/data-base/SQL%20Injection.html)
 * [원본링크2](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Database#statement-vs-preparedstatement)
+* [참조](https://noirstar.tistory.com/264)
