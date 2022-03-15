@@ -22,7 +22,7 @@ INNER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile9.uf.tistory.com%2Fimage%2F99799F3E5A8148D7036659)
 
-* 쉡가 말해 **교집합**으로 생각하면 된다.
+* 쉽게 말해 **교집합**으로 생각하면 된다.
 * 기준 테이블과 join 테이블의 중복된 값을 보여준다.
 * 결과값은 A의 테이블과 B 테이블이 모두 가지고 있는 데이터만 검색된다.
 
@@ -39,9 +39,9 @@ INNER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile6.uf.tistory.com%2Fimage%2F997E7F415A81490507F027)
 
-* **기주 테이블값 + 조인테이블과 기준테이블의 중복된 값**을 보여준다.
+* **기준 테이블값 + 조인테이블과 기준테이블의 중복된 값**을 보여준다.
 * 왼쪽 테이블을 기준으로 JOIN을 한다고 생각하면 편하다.
-* 겹과값은 A 테이블의 모든 값과 A 테이블과 B 테이블의 중복되는 값이 검색된다.
+* 결과값은 A 테이블의 모든 값과 A 테이블과 B 테이블의 중복되는 값이 검색된다.
 
 ``` sql
 SELECT
@@ -58,7 +58,7 @@ LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 
 * LEFT OUTER JOIN과는 반대이다.
 * 오른쪽 테이블을 기준으로 Join을 하겠다고 생각하면 된다.
-* 결과값은 B 테이블의 모든 값과 A 테이블과 B 테이브렝서 중복되는 값이 검색된다.
+* 결과값은 B 테이블의 모든 값과 A 테이블과 B 테이블에서 중복되는 값이 검색된다.
 
 ``` sql
 SELECT
@@ -91,7 +91,7 @@ FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F993F4E445A8A2D281AC66B)
 
 * **모든 경우의 수를 전부 표현해주는 방식**이다.
-* 기줕 테이블이 A일 경우, A의 데이터 한 Row를 B 테이블 전체와 JOIN 하는 방식이다.
+* 기준 테이블이 A일 경우, A의 데이터 한 Row를 B 테이블 전체와 JOIN 하는 방식이다.
 * 결과값은 N * M 이다.
 * 위 그림의 경우, A 테이블의 데이터가 3개, B 테이블의 데이터가 4개가 있으므로 총 3*4 = 12개의 데이터가 검색된다.
 
