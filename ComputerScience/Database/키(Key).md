@@ -41,4 +41,4 @@
 <br/>
 
 **참조**
-* [원본링크](https://gyoogle.dev/blog/computer-science/data-base/Key.html)
+* [원본링크](https://gyoogle.dev/blog/computer-science/data-base/Key.html)ㅇㅁ
