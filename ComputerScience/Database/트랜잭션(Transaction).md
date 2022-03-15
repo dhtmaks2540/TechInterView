@@ -164,6 +164,6 @@ Deadlock이 발생한다. 일반적인 DBMS는 교착상태를 독자적으로 �
 
 **참조**
 
-*[원본링크1](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Database#transaction)
-*[원본링크2](https://gyoogle.dev/blog/computer-science/data-base/Transaction.html)
+* [원본링크1](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Database#transaction)
+* [원본링크2](https://gyoogle.dev/blog/computer-science/data-base/Transaction.html)
 * [트랜잭션의 여러가지 개념](https://rebro.kr/162?category=484170)
