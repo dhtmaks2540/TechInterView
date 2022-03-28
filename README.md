@@ -9,3 +9,10 @@ CS 지식(Computer Architecture, DataStructure, Database, Network, OS), 알고�
 * [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
 * [gmlwjd9405님 github.io](https://gmlwjd9405.github.io/tags.html#%EB%A9%B4%EC%A0%91)
 * [Rebro의 코딩 일기장](https://rebro.kr/category/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%28OS%29)
+
+<br/>
+
+## 면접
+* [프로그래머스 안드로이드 개발자 면접 모음](https://programmers.co.kr/posts/tag/Android)
+* [안드로이드 개발자 면접](https://class-programming.tistory.com/137)
+* [신입 개발자 구집 팁등](https://github.com/jojoldu/junior-recruit-scheduler)
