@@ -16,3 +16,4 @@ CS 지식(Computer Architecture, DataStructure, Database, Network, OS), 알고�
 * [프로그래머스 안드로이드 개발자 면접 모음](https://programmers.co.kr/posts/tag/Android)
 * [안드로이드 개발자 면접](https://class-programming.tistory.com/137)
 * [신입 개발자 구집 팁등](https://github.com/jojoldu/junior-recruit-scheduler)
+* [안드로이드 면접대비](https://velog.io/@ptm0304/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C)
