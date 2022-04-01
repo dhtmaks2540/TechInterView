@@ -49,6 +49,27 @@
 
 <br/>
 
+**추가 참고 내용** 
+### [스트림](http://www.ktword.co.kr/test/view/view.php?m_temp1=1311)
+
+영어 뜻으로는 '흐르는 시냇물'을 의미한다.
+
+* 데이터 관점
+  * 일반적으로 데이터, 패킷, 비트 등의 일련의 연속성을 갖는 흐름을 의미
+    * 음성, 영상, 텍스트 등의 작은 데이터 조각들이 하나의 줄기를 이루며, 순서대로 물 흐르듯이 전송되는 데이터 열
+    * 스트림은 
+
+* 프로세스 관점
+  * 원격 호스트 상호간 또는 동일 호스트 내 프로세스 또는 장치 상호간의 통신에서, 큐에 의한 메시지 전달방식 등을 이용한 가상 연결 통로 또는 구현 소프트웨어 모듈
+
+### [자바에서의 스트림](http://www.tcpschool.com/java/java_io_stream)
+
+자바에서는 파일이나 콘솔의 입출력을 직접 다루지 않고,, 스트림(stream)이라는 흐름을 통해 다룬다.
+
+스트림(stream)이란 실제의 입력이나 출력이 표현된 데이터의 이상화된 흐름을 의미한다. 즉, 스트림은 운영체제에 의해 생성되는 가상의 연결 고리를 의미하며, 중간 매개재 역할을 한다. 자세한 내용은 링크 참조
+
+<br/>
+
 **참조**
 * [원본링크](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Network#tcp%EC%99%80-udp%EC%9D%98-%EB%B9%84%EA%B5%90)
 * [TCP/IP와 흐름제어/혼잡제어](https://gyoogle.dev/blog/computer-science/network/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.html)
