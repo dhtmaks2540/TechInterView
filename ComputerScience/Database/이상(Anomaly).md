@@ -1,36 +1,38 @@
 # Anomaly(이상)
 
-정규화를 해야하는 이유는 잘못된 테이블 설계로 인해 Anomaly(이상 현상)가 나타나기 때문이다. 이 글에서 Anomaly가 무엇인지 알아보겠다.
+**이상 현상** 이란, **테이블 내의 데이터들이 불필요하게 중복되어 테이블을 조작할 때 발생되는 데이터 불일치 현상** 이다. 테이블을 잘못 설계하여 삽입, 삭제, 갱신할 때 오류가 발생하게 되는 것이다. 이상현상에는 크게 3가지 이상현상이 있으며, 정규화를 통해서 이상 현상들을 해결할 수 있다.
 
-> 사용할 예제 테이블) {Student ID, Course ID, Department, Course ID, Grade}
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FccleUR%2FbtraQrfiyuS%2FjMrM5xrAkdCJjqTpiUZP81%2Fimg.png)
 
-<br/>
-
-1. **삽입 이상(Insertion Anomaly)**
-
-* 기본키가 {Student ID, Course ID}인 경우 -> Course를 수강하지 않은 학생은 Course ID가 없는 현상이 발생한다. 결국 Course ID를 Null로 할 수 밖에 없는데, 기본키는 Null이 될 수 없으므로, Table에 추가할 수 없다.
-
-* 굳이 삽입하기 위해서는 '미수강'과 같은 Course ID를 만들어야 한다.
-
-* **불필요한 데이터를 추가해야만 삽입할 수 있는 상황을 Insertion Anomaly**라고 한다.
+위와 같은 테이블을 예로 들어 어떤 이상현상이 발생하는지 알아보자.
 
 <br/>
 
-2. **갱신 이상(Update Anomaly)**
+## 삽입 이상
 
-* 만약 어떤 학생의 전공(Department)이 "컴퓨터에서 음악"으로 바뀌는 경우, 모든 Department를 "음악"으로 바꾸어야 한다. 그러나 일부를 깜빡하고 바꾸지 못하는 경우, 제대로 파악하지 못한다.
+* 강의를 수강하지 않은 학생을 추가할 때, 과목 번호와 성적에 null값이 들어가거나 불필요한 데이터를 추가해야 삽입할 수 있는 문제점이 발생한다. 아래와 같은 데이터를 삽입할 수 없다.
 
-* **일부만 변경하여, 데이터가 불일치 하는 모순의 문제를 Update Anomaly**라고 한다.
+* ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fndk9t%2FbtraQrsOCmT%2FMeh2Yk20kNGwUZoinbllik%2Fimg.png)
+
+* 학생이 수강신청 할 때 반드시 과목 번호를 알아야 삽입이 가능하다.
 
 <br/>
 
-3. **삭제 이상(Deletion Anomaly)**
+## 삭제 이상
 
-* 만약 어떤 학생이 수강을 철회하는 경우, {Student ID, Course ID, Department, Course ID, Grade}의 정보 중 Student ID, Department와 같은 학생의 정보도 함께 삭제된다.
+* 학번이 300인 항생이 과목 수강을 취소하면 C-73인 강의에 대한 정보도 모두 삭제된다.
 
-* **튜플 삭제로 인해 꼭 필요한 데이터까지 함께 삭제되는 문제를 Deletion Anomlay**라고 한다.
+* ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcbtfnI%2FbtraGcqIqEM%2Fq3AUrjKNB1zDKFpvm44PJK%2Fimg.png)
+
+* P1 교수가 강의하는 과목을 취소하는 경우 학번이 123인 학생에 대한 정보도 모두 삭제된다.
+
+<br/>
+
+## 갱신 이상
+
+* 학번이 123인 학생의 지도교수가 P2로 변경되면, 123인 학생이 수강하는 모든 과목(행)에서의 지도교수를 변경시켜주어야 한다.
 
 <br/>
 
 **참조**
-* [원본링크](https://gyoogle.dev/blog/computer-science/data-base/Anomaly.html)
+* [원본링크](https://rebro.kr/159?category=484170)
