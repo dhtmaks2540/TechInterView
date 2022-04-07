@@ -160,8 +160,6 @@ Deadlock이 발생한다. 일반적인 DBMS는 교착상태를 독자적으로 �
 
 <br/>
 
-트랜잭션의 여러가지 개념 무조건 읽기!!!
-
 **참조**
 
 * [원본링크1](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Database#transaction)

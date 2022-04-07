@@ -162,3 +162,4 @@ SELECT 쿼리의 성능을 월등히 향상시키는 INDEX 항상 좋은 것일�
 * [원본링크2](https://gyoogle.dev/blog/computer-science/data-base/Index-.html)
 * [원본링크3](https://rebro.kr/167?category=484170)
 * [자료구조 - 그림으로 알아보는 B-Tree](https://velog.io/@emplam27/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-B-Tree)
+* [자료구조 - 그림으로 알아보는 B+Tree](https://velog.io/@emplam27/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-B-Plus-Tree)
